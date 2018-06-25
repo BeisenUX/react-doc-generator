@@ -121,6 +121,7 @@ if (Command.args.length !== 1) {
                 let extensions = Command.extensions.map(ext => {
                     return `\`*.${ext}\``;
                 });
+                console.log(12312312)
                 console.log(`${Colors.bold.yellow('Warning:')} ${Colors.yellow(`Could not find any files matching the file type: ${extensions.join(' OR ')}`)}\n`);
             } else {
                 console.log(`${table.toString()}\n\n`);
